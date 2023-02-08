@@ -1,0 +1,406 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Responsive layout - make the columns stack on footer1 of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+
+#head1{
+  height:50px;
+  background-color:#3399E5;
+  color: white;
+}
+ .form-inline{
+   padding-top: 15px;
+   padding-left: 15px;
+   font-size: 15px;
+ }
+ .far {
+   padding-left: 10px;
+ }
+#head2 {
+  height: 150px;
+  font-family: spirax;
+}
+#navbar{
+  padding-left: 100px;
+
+}
+.collapse-content .fa.fa-heart:hover {
+  color: #f44336 !important;
+}
+.collapse-content .fa.fa-share-alt:hover {
+  color: #0d47a1 !important;
+}
+#head3{
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/05/11/31/2759916d835b5ab.jpg");
+  height: 100px;
+}
+#social {
+  padding-footer1: 0px;
+}
+#head4{
+  height: 100px;
+}
+#impressium{
+  padding: 20px;
+  padding-footer1: 30px;
+  font-style: gothic;
+  font-size: 20px;
+  font-family: spirax;
+}
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+#navbar {
+  padding-left: 80px;
+}
+#ks {
+  text-align: left;
+}
+#profile,#login,#cart{
+  padding-footer1: 40px;
+  padding-left: 80px;
+}
+#mission{
+  height: 200px;
+  text-align: center;
+  background-color: #1583D5;
+}
+#story{
+  height: 500px;
+  padding-right: 0px;
+  background-color: #4DC312;
+}
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+map1{
+  height: 100px;
+}
+#change1{
+  font-size: 25px;
+  color: red;
+}
+#change2{
+  background-color: #B1B0A5;
+}
+#change3{
+  background-color: #1FD6C0;
+}
+p {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.far{
+  padding-top: 5px;
+}
+
+
+
+
+.note{
+  float: left;
+}
+
+	.modal-login {
+		color: #636363;
+		width: 350px;
+	}
+	.modal-login .modal-content {
+		padding: 20px;
+		border-radius: 5px;
+		border: none;
+	}
+	.modal-login .modal-header {
+		border-bottom: none;
+		position: relative;
+		justify-content: center;
+	}
+	.modal-login h4 {
+		text-align: center;
+		font-size: 26px;
+	}
+	.modal-login  .form-group {
+		position: relative;
+	}
+  #navigation{
+    border-bottom: solid;
+    border-color: red;
+  }
+	.modal-login i {
+		position: absolute;
+		left: 13px;
+		footer1: 11px;
+		font-size: 18px;
+	}
+	.modal-login .form-control {
+		padding-left: 40px;
+	}
+	.modal-login .form-control:focus {
+		border-color: #00ce81;
+	}
+	.modal-login .form-control, .modal-login .btn {
+		min-height: 40px;
+		border-radius: 3px;
+	}
+	.modal-login .hint-text {
+		text-align: center;
+		padding-footer1: 10px;
+	}
+	.modal-login .close {
+        position: absolute;
+		footer1: -5px;
+		right: -5px;
+	}
+	.modal-login .btn {
+		background: #00ce81;
+		border: none;
+		line-height: normal;
+	}
+	.modal-login .btn:hover, .modal-login .btn:focus {
+		background: #00bf78;
+	}
+	.modal-login .modal-footer {
+		background: #ecf0f1;
+		border-color: #dee4e7;
+		text-align: center;
+		margin: 0 -20px -20px;
+		border-radius: 5px;
+		font-size: 13px;
+		justify-content: center;
+	}
+	.modal-login .modal-footer a {
+		color: #999;
+	}
+	.trigger-btn {
+
+	}
+
+
+
+
+body {
+  font-family: gothic;
+  font-size: 16px;
+  background-color: #444444;
+}
+h5 {
+  font-family: sans-serif;
+}
+
+.card {
+  border-footer1: none;
+}
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+
+
+
+
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  overflow: hidden;
+  height: 65px;
+}
+
+.header a {
+  color: inherit;
+}
+
+.header a:hover {
+  font-weight: bold;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-nav {
+  float: right;
+}
+
+.header-nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+#insurance{
+  background-color: white;
+}
+.icon-bar {
+  position: fixed;
+  footer1: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#career {
+ padding-left: 300px;
+}
+
+ul#menu li {
+  display:inline;
+  padding-right: 20px;
+  color: green;
+}
+#menu{
+  padding-top: 15px;
+  text-decoration: none;
+}
+#tagline{
+  font-size: 13px;
+}
+body{
+  font-family: Garamond;
+}
+
+#mobile {
+  height: 200px;
+  border: 10px;
+  border-style: solid;
+  text-align: center;
+  background-color: #8A8E91;
+  border-color: lightblue;
+  color: ;
+}
+#carouselExampleIndicators {
+  border-bottom: solid;
+  border-width: thick;
+}
+#footer1 {
+  background-color: green;
+
+}
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+#vision{
+  background-color: skyblue;
+}
+#nav1{
+  position: relative;
+  background-color:white;
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
